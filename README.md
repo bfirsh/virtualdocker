@@ -3,9 +3,12 @@ virtualdocker
 
 **Warning:** Work in progress.
 
-Runs [boot2docker](https://github.com/steeve/boot2docker) inside VirtualBox.
+Runs [boot2docker](https://github.com/steeve/boot2docker) inside VirtualBox and configures Docker to use it.
 
     $ virtualdocker up
+    $ docker version
+
+It is intended for use on platforms which do not support the Docker daemon such as Mac OS X.
 
 Commands
 --------
